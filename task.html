@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500;700&family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./task.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="form_box">
+          
+            <p class="text600">Get in touch</p>
+            <form action="#">
+                
+            </form>
+            <input type="text" name="name" id="name" placeholder="Name">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Message"></textarea>
+            <div id="agree">
+                <input type="checkbox" id="checkbox">
+                <p>I would like to receive the newsletter.</p>
+            </div>
+            <button id="submit">Submit</button>
+            <div id="message_send_info">Email sent</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./jQuery.js"></script>
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>
